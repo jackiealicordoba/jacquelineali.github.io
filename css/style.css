@@ -1,0 +1,206 @@
+/*General Details */
+body {
+	background-color:black;
+	font-family: 'PT Sans Narrow', sans-serif; /* This font needs to go, but I don't know what to replace it with. */
+	/*font-family: 'Droid Sans', sans-serif;*/
+}
+
+h1 {
+	color:white;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
+
+a {
+  color:white;
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+nav {
+	/* Positioning */
+  
+
+	/* Box-Model */
+
+	/* Typography */
+
+	/* Visual */
+	background-color: #0047ab;
+
+	/* Misc */
+}
+
+nav a {
+	/* Positioning */ 
+
+	/* Box-Model */
+	float: right;
+
+	/* Typography */
+
+	/* Visual */
+
+	/* Misc */	
+}
+
+/* Header + Navbar Details 
+.navbar {
+	/*positioning/sizing details
+	position:relative;
+	top:-25px;
+	width:100%;
+	height:50px;
+	
+	background-color:#0047ab;
+	text-transform: uppercase;
+}
+
+.navbar ul {
+	position:absolute;
+	right:10px;
+}
+
+.navbar li {
+	display:inline;
+
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
+
+.navbar a {
+	margin:10px;
+}
+
+.navbar h1 {
+	width:300px;
+	position:relative;
+	left:15px;
+} */
+
+
+/* Social Media Bar details */
+.social {
+	/* Separates bar from flow, offsets from left. */
+	position:absolute;
+	left:20px;
+
+}
+
+/* Social Media Icon Styling */
+.social ul {
+	padding:0px;
+	list-style-type: none;
+}
+
+.social li {
+	margin-bottom:10px;
+}
+
+/* Content Styling */
+.content {
+	position:relative;
+	left:100px;
+	
+	width:500px;
+	
+	color:white;
+}
+
+.content h2 {
+	margin-top: 5px;
+	margin-bottom:-3px;
+}
+
+.content p {
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+/* Resume Styling ------------------------ */
+/* Resume tabs */
+.res-tabs {
+	width: 100px;
+	margin-top: 10px;
+	position:absolute;
+}
+.res-tabs div{
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin-bottom:10px; 
+
+	text-align: center; 
+
+	font-family:'Oswald', sans-serif;
+	text-transform: uppercase;
+	background-color: #ab6400;
+}
+
+.res-tabs div p {
+	margin-top:8px;
+	margin-bottom:8px;
+}
+
+/* Resume box */
+.resume {
+	width:750px;
+	height: 350px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+
+	margin-left:100px;
+	margin-top: 10px;
+
+	background-color: white;
+	color:black;
+	border:3px solid #0047ab;
+}
+
+.resume a {
+	color:black;
+}
+
+.resume 
+.head-info {
+	/*positioning/color stuff? Something so it doesn't take
+	up so much space*/
+}
+
+.resume .head-info p {
+	margin-bottom: -3px; 
+}
+
+.resume h3 {
+	margin-top:0px;
+	margin-bottom: -3px;
+}
+
+.resume div {
+	position:relative;
+	margin-top: 4px;
+	margin-bottom: 7px;
+}
+
+.resume ul {
+	margin-top:0px;
+	margin-bottom: 0px;
+}
+
+.completed {
+	text-decoration: line-through;
+	
+}
