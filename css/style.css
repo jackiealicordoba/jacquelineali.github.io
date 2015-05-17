@@ -1,24 +1,16 @@
 /*General Details */
 body {
+	/* Positioning */ 
+
+	/* Box-Model */
+	padding-top: 70px;
+	/* Typography */
+
+	/* Visual */
 	background-color:black;
-	font-family: 'PT Sans Narrow', sans-serif; /* This font needs to go, but I don't know what to replace it with. */
-	/*font-family: 'Droid Sans', sans-serif;*/
-}
+	font-family: 'PT Sans Narrow', sans-serif; 
 
-h1 {
-	color:white;
-	font-family: 'Oswald', sans-serif;
-	text-transform: uppercase;
-}
-
-h2 {
-	font-family: 'Oswald', sans-serif;
-	text-transform: uppercase;
-}
-
-h3 {
-	font-family: 'Oswald', sans-serif;
-	text-transform: uppercase;
+	/* Misc */
 }
 
 a {
@@ -49,7 +41,6 @@ nav a {
 	/* Positioning */ 
 
 	/* Box-Model */
-	float: right;
 
 	/* Typography */
 
