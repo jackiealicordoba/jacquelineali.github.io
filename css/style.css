@@ -9,10 +9,18 @@ body {
 	/* Visual */
 	background-color:black;
 	font-family: 'PT Sans Narrow', sans-serif; 
-
+	color: white; /*TEMPORARY */
 	/* Misc */
 }
 
+.container { 
+	background-color: gray;
+}
+
+.container-fluid {
+	background-color: green;
+}
+/*
 a {
   color:white;
 	text-decoration:none;
@@ -20,34 +28,8 @@ a {
 
 a:hover {
 	text-decoration: underline;
-}
+} */
 
-
-nav {
-	/* Positioning */
-  
-
-	/* Box-Model */
-
-	/* Typography */
-
-	/* Visual */
-	background-color: #0047ab;
-
-	/* Misc */
-}
-
-nav a {
-	/* Positioning */ 
-
-	/* Box-Model */
-
-	/* Typography */
-
-	/* Visual */
-
-	/* Misc */	
-}
 
 /* Header + Navbar Details 
 .navbar {
@@ -122,74 +104,6 @@ nav a {
 	margin-bottom:0px;
 }
 
-/* Resume Styling ------------------------ */
-/* Resume tabs */
-.res-tabs {
-	width: 100px;
-	margin-top: 10px;
-	position:absolute;
-}
-.res-tabs div{
-	padding-top: 3px;
-	padding-bottom: 3px;
-	margin-bottom:10px; 
-
-	text-align: center; 
-
-	font-family:'Oswald', sans-serif;
-	text-transform: uppercase;
-	background-color: #ab6400;
-}
-
-.res-tabs div p {
-	margin-top:8px;
-	margin-bottom:8px;
-}
-
-/* Resume box */
-.resume {
-	width:750px;
-	height: 350px;
-	padding-left: 10px;
-	padding-bottom: 10px;
-
-	margin-left:100px;
-	margin-top: 10px;
-
-	background-color: white;
-	color:black;
-	border:3px solid #0047ab;
-}
-
-.resume a {
-	color:black;
-}
-
-.resume 
-.head-info {
-	/*positioning/color stuff? Something so it doesn't take
-	up so much space*/
-}
-
-.resume .head-info p {
-	margin-bottom: -3px; 
-}
-
-.resume h3 {
-	margin-top:0px;
-	margin-bottom: -3px;
-}
-
-.resume div {
-	position:relative;
-	margin-top: 4px;
-	margin-bottom: 7px;
-}
-
-.resume ul {
-	margin-top:0px;
-	margin-bottom: 0px;
-}
 
 .completed {
 	text-decoration: line-through;
