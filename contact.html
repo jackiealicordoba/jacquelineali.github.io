@@ -27,12 +27,26 @@
 </head>
 
 <body>
-  <nav>
-    <a href="index.html">About Me</a>
-    <a href="resume.html">Resume</a>
-    <a href="levelup.html">Level-Up List</a>
-    <a href="contact.html">Contact</a>
-    <h1 id="my_name">Jacqueline Ali</h1>
+  <!-- NAVBAR --> 
+  <nav class="navbar navbar-inverse navbar-fixed-top" id="site-navbar">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">Jacqueline Ali</a>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="index.html">About Me</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="levelup.html">Level-Up List</a></li>
+          <li><a href="contact.html">Contact<span class="sr-only">(current)</span></a></li>
+        </ul>
+      </div>
+    </div>
   </nav>
 
   <div class="social">
@@ -63,10 +77,11 @@
     <p>You can also find me on Twitter, LinkedIn, or GitHub.</p>
   </div>
   
+  <!-- jQuery 
+  <script src="https//code.jquery.com/jquery-2.1.4.min.js"></script>-->
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <!-- Latest compiled and minified JavaScript : Bootstrap -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-  <!-- jQuery -->
-  <script src="https//code.jquery.com/jquery-2.1.4.min.js"></script>
-  <script src="https//code.jquery.com/jquery-migrate-2.1.4.min.js"></script>
 </body>
 </html>

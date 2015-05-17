@@ -30,12 +30,26 @@
 </head>
 
 <body>
-  <nav>
-    <a href="index.html">About Me</a>
-    <a href="resume.html">Resume</a>
-    <a href="levelup.html">Level-Up List</a>
-    <a href="contact.html">Contact</a>
-    <h1 id="my_name">Jacqueline Ali</h1>
+  <!-- NAVBAR --> 
+  <nav class="navbar navbar-inverse navbar-fixed-top" id="site-navbar">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">Jacqueline Ali</a>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="index.html">About Me</a></li>
+          <li><a href="resume.html">Resume<span class="sr-only">(current)</span></a></li>
+          <li><a href="levelup.html">Level-Up List</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
   </nav>
 
   <div class="social">
@@ -57,138 +71,18 @@
     </ul>
   </div>
 
-  <div class="content">
-    <h2>Resume</h2>
+  <h2>Resume</h2>
 
-    <p>Download a copy <a href=
+  <p>Download a copy <a href=
     "https://www.dropbox.com/s/eoko9dadhw5kgt4/ResumeJune2014.docx">here</a>.</p>
 
-    <div class="res-tabs">
-      <div class="tab1">
-        <p>Education</p>
-      </div>
 
-      <div class="tab2">
-        <p>Involvement</p>
-      </div>
 
-      <div class="tab3">
-        <p>Skills</p>
-      </div>
-
-      <div class="tab4">
-        <p>Experience</p>
-      </div>
-
-      <div class="tab5">
-        <p>Activities</p>
-      </div>
-    </div>
-
-    <div class="resume">
-      <div class="head-info">
-        <h2>Jacqueline Ali Cordoba</h2>
-
-        <p>480 Parker Street, Boston, MA 02115 | (832) 403-7412 | <a href=
-        "mailto:jackiealicordoba@gmail.com">jackiealicordoba@gmail.com</a> |
-        <a href="http://jackieali.me/">jackieali.me</a></p>
-
-        <p>Available: Jan. – June 2015</p>
-      </div>
-
-      <div class="education">
-        <h3>Education</h3>
-
-        <p><strong>Northeastern University</strong>, Boston, MA</p>
-
-        <p>College of Computer and Information Science (CCIS)</p>
-
-        <p>Candidate for Bachelor of Science in Computer Science</p>
-
-        <p>Cumulative GPA: 3.370</p>
-
-        <p>Aug. 2013 – May 2018</p>
-
-        <p><em>Relevant Courses:</em></p>
-
-        <p>Fundamentals of Computer Science 1 & 2 (Honors), Discrete Structures
-        (Honors), Logic and Computation, Linear Algebra, Calculus 2</p>
-
-        <p><strong>Clear Brook High School</strong>, Friendswood, TX</p>
-
-        <p>Summa cum laude graduate, Texas Distinguished Achievement Plan,
-        National Merit Finalist</p>
-
-        <p><em>Extracurricular Activities:</em></p>
-
-        <p>Academic Decathlon, Academic Octathlon, Texas State Junior Classical
-        League, Art, Orchestra</p>
-      </div>
-
-      <div class="involvement">
-        <h3>Involvement</h3>
-
-        <p><strong>Member</strong>, Association for Computing Machinery
-        Northeastern Chapter (NUACM), Sep. 2013 – Present</p>
-
-        <p><strong>Events Chair</strong>, NUACM, books industry speakers for
-        weekly Tech Talks, Apr. 2014 – Present</p>
-
-        <p><strong>Member</strong>, NU Hacks, student group for working on
-        programming projects and building skills, Sep. 2013 – Present</p>
-
-        <p><strong>Volunteer/Tutor</strong>, 826 Boston, Oct. 2013 – Apr.
-        2014</p>
-      </div>
-
-      <div class="skills">
-        <h3>Skills</h3>
-
-        <p><strong>Primary Languages</strong>: Java, Racket(Scheme)</p>
-        <!-- Uncomment upon finishing a respectably decent website
-                    <p><strong>Other Known Languages</strong>: HTML, CSS</p> -->
-
-        <p><strong>Technologies</strong>: Git</p>
-      </div>
-
-      <div class="work">
-        <h3>Work Experience</h3><strong>Subway</strong>, Houston, Texas
-        <em>Sandwich Artist</em>, Apr. – June 2012
-
-        <ul>
-          <li>Provided excellent customer service during fast-paced lunch
-          hours</li>
-
-          <li>Handled cash and credit transactions quickly and accurately</li>
-
-          <li>Translated orders for Spanish speaking clients</li>
-        </ul>
-      </div>
-
-      <div class="activities">
-        <h3>Activities</h3>
-
-        <p><strong>Hack Beanpot 2014</strong>, team built Android application
-        that won Best Design</p>
-
-        <p><strong>Boston I/O 2014</strong>, conference about open-source
-        technology and new techniques</p>
-
-        <p><strong>Out for Undergrad University Program 2014</strong>, career
-        development for LGBT students in technology</p>
-      </div><em></em>
-
-      <p><em>References available upon request.</em></p>
-    </div>
-  </div><!--Copyright footer, put in last
-    <div class="footer">
-        <p>Copyright &#169 Jacqueline Ali 2014</p>
-    </div>-->
-
+  <!-- jQuery 
+  <script src="https//code.jquery.com/jquery-2.1.4.min.js"></script>-->
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <!-- Latest compiled and minified JavaScript : Bootstrap -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-  <!-- jQuery -->
-  <script src="https//code.jquery.com/jquery-2.1.4.min.js"></script>
-  <script src="https//code.jquery.com/jquery-migrate-2.1.4.min.js"></script>
 </body>
 </html>
