@@ -8,16 +8,18 @@ body {
 
 	/* Visual */
 	background-color:black;
-	font-family: 'PT Sans Narrow', sans-serif; 
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 20px; 
 	color: white; /*TEMPORARY */
+
 	/* Misc */
 }
 
-.container { 
+.about_me { 
 	background-color: gray;
 }
 
-.container-fluid {
+.span9 {
 	background-color: green;
 }
 /*
