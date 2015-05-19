@@ -8,7 +8,6 @@ body {
 
 	/* Visual */
 	background-color:black;
-	font-family: 'PT Sans Narrow', sans-serif;
 	font-size: 20px; 
 	color: white; /*TEMPORARY */
 
@@ -16,12 +15,21 @@ body {
 }
 
 .about_me { 
-	background-color: gray;
+
 }
 
-.span9 {
-	background-color: green;
+.skills_and_resume {
+
 }
+
+.levelup_preview {
+	
+}
+
+.contact {
+
+}
+
 /*
 a {
   color:white;
@@ -86,7 +94,7 @@ a:hover {
 	margin-bottom:10px;
 }
 
-/* Content Styling */
+/* Content Styling 
 .content {
 	position:relative;
 	left:100px;
@@ -104,7 +112,7 @@ a:hover {
 .content p {
 	margin-top:0px;
 	margin-bottom:0px;
-}
+}*/
 
 
 .completed {
