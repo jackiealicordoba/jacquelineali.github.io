@@ -14,6 +14,10 @@ body {
 	/* Misc */
 }
 
+.row {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
 .about_me { 
 
 }
