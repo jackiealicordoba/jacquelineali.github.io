@@ -3,15 +3,33 @@ body {
 	/* Positioning */ 
 
 	/* Box-Model */
-	padding-top: 70px;
+	padding-top: 52px;
 	/* Typography */
 
 	/* Visual */
-	background-color:black;
 	font-size: 20px; 
-	color: white; /*TEMPORARY */
 
 	/* Misc */
+}
+
+.navbar {
+	margin:0px;
+}
+
+.jumbotron {
+	/* Positioning */
+
+	/* Box-Model */
+	height:400px;
+	/* Typography */
+	color:black;
+	/* Visual */ 
+	background-image: url("../images/sunsetsea.png");
+	background-size: cover;
+	/* Misc */
+
+	
+	
 }
 
 .row {
