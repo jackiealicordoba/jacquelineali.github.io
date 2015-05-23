@@ -22,15 +22,18 @@ body {
 	/* Box-Model */
 	height:400px;
 	/* Typography */
-	color:black;
+
+	color:white;
 	/* Visual */ 
 	background-image: url("../images/sunsetsea.png");
 	background-size: cover;
-	/* Misc */
-
-	
-	
+	/* Misc */	
 }
+
+.jumbotron h1 {
+	font-family: 'Patua One', cursive;
+}
+
 
 .row {
 	padding-top: 50px;
