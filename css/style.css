@@ -10,6 +10,8 @@ body {
 	font-size: 20px; 
 
 	/* Misc */
+	/*background-image: url("../images/brickwall.png");*/
+	background-color: #f6f6f6;
 }
 
 body h1 {
@@ -50,9 +52,9 @@ body h2 {
 
 	color:white;
 	/* Visual */ 
-	/* background-image: url("../images/sunsetsea.png"); */
 	background-image: url("../images/chalkheader1.jpeg");
 	background-size: cover;
+	border-bottom: 1px solid #7D2235;
 	/* Misc */	
 }
 
@@ -60,12 +62,18 @@ body h2 {
 	font-family: 'Patua One', serif;
 }
 
+.about_me_summary {
+
+}
+
 #about_me { 
 
 }
 
-#skills_and_resume {
-
+#resume {
+	/*
+	color:#FFFFFF;
+	background-color: #7D2235;*/
 }
 
 #levelup_preview {
@@ -73,7 +81,8 @@ body h2 {
 }
 
 #contact {
-
+	color:#FFFFFF;
+	background-image: url("../images/contact_texture.png");
 }
 
 /*
