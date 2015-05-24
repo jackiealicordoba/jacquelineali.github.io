@@ -12,12 +12,33 @@ body {
 	/* Misc */
 }
 
+body h1 {
+	font-family: 'Patua One', serif;
+}
+
 body h2 {
 	font-family: 'Patua One', serif;
 }
 
+.row {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.btn {
+	font-family: 'Patua One', serif;
+}
+
 .navbar {
+	/* Positioning */
+	/* Box Model */
 	margin:0px;
+	/* Typography */
+	font-family: 'Patua One', serif;
+	color: white;
+	/* Visual */
+	background-color: #78202B;
+	/* Misc */
 }
 
 .jumbotron {
@@ -39,24 +60,19 @@ body h2 {
 	font-family: 'Patua One', serif;
 }
 
-
-.row {
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
-.about_me { 
+#about_me { 
 
 }
 
-.skills_and_resume {
+#skills_and_resume {
 
 }
 
-.levelup_preview {
+#levelup_preview {
 	
 }
 
-.contact {
+#contact {
 
 }
 
