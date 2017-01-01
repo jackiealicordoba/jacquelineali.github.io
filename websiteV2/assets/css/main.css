@@ -1605,7 +1605,7 @@
   }
 
   h1, h2, h3, h4, h5, h6 {
-    color: #787878;
+    color: #565656;
     font-weight: 400;
     line-height: 1em;
     margin: 0 0 0.5em 0;
@@ -1748,6 +1748,11 @@
   header.major h2 {
     font-size: 2em;
   }
+
+/* Skills Icons */
+#skills i {
+  color: #2d4bad;
+}
 
 /* Form */
 
@@ -1899,7 +1904,7 @@
     input[type="checkbox"]:checked + label:before,
     input[type="radio"]:checked + label:before {
       background: #787878;
-      border-color: #787878;
+      border-color: #565656;
       color: #fff;
       content: '\f00c';
     }
@@ -2340,11 +2345,11 @@
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
     background-color: transparent;
     border-radius: 0.35em;
-    border: solid 3px #efefef;
-    color: #787878;
+    border: solid 3px #bcbcbc;
+    color: #565656;
     cursor: pointer;
     display: inline-block;
-    font-weight: 400;
+    font-weight: 600;
     height: 3.15em;
     height: calc(2.75em + 6px);
     line-height: 2.75em;
@@ -2366,9 +2371,8 @@
     input[type="reset"]:active,
     input[type="button"]:active,
     .button:active {
-      background-color: rgba(73, 191, 157, 0.1);
-      border-color: #82b1ff;
-      color: #82b1ff !important;
+      border-color: #f1d700;
+      color: #f1d700;
     }
 
     input[type="submit"].icon,
@@ -2531,7 +2535,7 @@
       margin: 0 0 2em 0;
     }
 
-    #header strong, #header b {
+    #header h1 strong, #header h1 b {
       color: #f1d700;
       font-size: 2em;
     }

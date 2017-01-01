@@ -40,7 +40,7 @@
 
         <div class="inner">
 
-          <a href="#" class="image avatar"><img src="images/CroppedHackathon.jpg" alt="" /></a>
+          <a href="index.html" class="image avatar"><img src="images/CroppedHackathon.jpg" alt="" /></a>
 
           <h1><strong>Jackie Ali Cordoba</strong></h1>
 
@@ -266,9 +266,23 @@
 
                 <a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="" /></a>
 
-                <h3>Impact of UFFI on Housing Prices</h3>
+                <h3>Analysis: Impact of UFFI on Housing Prices</h3>
 
-                <p>Mention that this was a class project to build skills, not real analysis.</p>
+                <p>An assignment for DS4100 to evaluate if there is a correlation between UFFI and housing prices FINISH THIS$$$$$$$</p>
+                <!-- Mention multiple regression model creation, single factor
+                ANOVA, model evaluation using p-values, MAD (define acronyms!!!!),
+                 and adjusted R-squared. Also mention learning the importance of
+                 reporting confidence intervals & areas of weakness in the model (e.g. adjusted R-square really low).-->
+
+              </article>
+
+              <article class="6u 12u$(xsmall) work-item">
+
+                <a href="images/fulls/03.jpg" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="" /></a>
+
+                <h3>Data Wrangling feat. IMDb</h3>
+
+                <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
 
               </article>
 
@@ -283,12 +297,6 @@
               </article>
 
             </div>
-
-            <ul class="actions">
-
-              <li><a href="#" class="button">Full Portfolio</a></li>
-
-            </ul>
 
           </section>
 
@@ -312,7 +320,7 @@
 
                       <li>Row a boat on the Boston Harbor</li>
 
-                      <li>Build and launch an Android app</li>
+                      <li>Complete DataCamp's Python Courses</li>
 
                       <li>Complete a Spartan Race, Tough Mudder, or Warrior Dash</li>
 
@@ -353,9 +361,15 @@
 
                     <div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
 
-                    <div class="6u$ 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
+                    <div class="6u$ 12u$(xsmall)"><input type="email" name="_replyto" id="email" placeholder="Your Email" /></div>
 
                     <div class="12u$"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+
+                    <div class="12u$"><input type="hidden" name="_subject" value="Reply from Jackie Ali Cordoba" /></div>
+
+                    <input type="hidden" name="_next" value="index.html" /> <!-- $$$ send them to a Thank you feedback page -->
+
+                    <input type="text" name="_gotcha" style="display:none" />
 
                   </div>
 
@@ -363,16 +377,16 @@
 
                   <div class="6u$ 12u$(small)">
 
-                    <input type="checkbox" id="demo-human" name="demo-human">
+                    <input type="checkbox" id="human" name="human" >
 
-                    <label for="demo-human">I am a human and not a robot</label>
+                    <label for="human">I am not a robot</label>
 
                   </div>
 
                   <div>
                   <ul class="actions">
 
-                    <li><input type="submit" value="Send Message" /></li>
+                    <li><input id="send-button" type="submit" class="special" value="Send Message" disabled/></li>
 
                     </ul>
 
@@ -398,7 +412,7 @@
 
                     <h3 class="icon fa-envelope-o"><span class="label">Email</span></h3>
 
-                    <a href="#">jackiealicordoba@gmail.com</a>
+                    jackiealicordoba[at]gmail[dot]com
 
                   </li>
 
@@ -1070,8 +1084,6 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
             <li><a href="https://medium.com/@jackieali" target="_blank" class="icon fa-medium"><span class="label">Medium</span></a></li>
 
-            <li><a href="mailto:jackiealicordoba@gmail.com" target="_blank" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-
           </ul>
 
           <ul class="copyright">
@@ -1100,7 +1112,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
       <script src="assets/js/main.js"></script>
 
-
+      <script src="assets/js/script.js"></script>
 
   </body>
 
