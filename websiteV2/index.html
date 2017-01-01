@@ -338,7 +338,7 @@
 
         <!-- Three -->
 
-          <section id="three">
+          <section id="contact">
 
             <h2>Get In Touch</h2>
 
@@ -355,19 +355,19 @@
 
               <div class="8u 12u$(small)">
 
-                <form action="https://formspree.io/jackiealicordoba@gmail.com" method="POST">
+                <form id="contactform" method="POST">
 
                   <div class="row uniform 50%">
 
-                    <div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
+                    <div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Your Name" /></div>
 
                     <div class="6u$ 12u$(xsmall)"><input type="email" name="_replyto" id="email" placeholder="Your Email" /></div>
 
                     <div class="12u$"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
 
-                    <div class="12u$"><input type="hidden" name="_subject" value="Reply from Jackie Ali Cordoba" /></div>
+                    <input type="hidden" name="_subject" value="Thanks for Reaching Out - Jackie" />
 
-                    <input type="hidden" name="_next" value="index.html" /> <!-- $$$ send them to a Thank you feedback page -->
+                    <input type="hidden" name="_next" value="" /> <!-- $$$ send them to a Thank you feedback page -->
 
                     <input type="text" name="_gotcha" style="display:none" />
 
@@ -1113,6 +1113,11 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
       <script src="assets/js/main.js"></script>
 
       <script src="assets/js/script.js"></script>
+
+      <script>
+        var contactform = document.getElementById('contactform');
+        contactform.setAttribute('action', '//formspree.io/' + 'jackiealicordoba' + '@' + 'gmail' + '.' + 'com');
+      </script>
 
   </body>
 
