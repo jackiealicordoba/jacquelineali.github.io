@@ -1795,7 +1795,7 @@
     input[type="email"]:focus,
     select:focus,
     textarea:focus {
-      border-color: #49bf9d;
+      border-color: #f1d700;
     }
 
   .select-wrapper {
@@ -1905,7 +1905,7 @@
 
     input[type="checkbox"]:focus + label:before,
     input[type="radio"]:focus + label:before {
-      border-color: #49bf9d;
+      border-color: #f1d700;
     }
 
   input[type="checkbox"] + label:before {
@@ -2352,8 +2352,8 @@
     input[type="reset"]:hover,
     input[type="button"]:hover,
     .button:hover {
-      border-color: #82b1ff; /* CHANGE THIS  $$$ */
-      color: #82b1ff;
+      border-color: #2d4bad; /* CHANGE THIS  $$$ */
+      color: #2d4bad;
     }
 
     input[type="submit"]:active,
@@ -2544,7 +2544,7 @@
     #header .image.avatar {
       margin: 0 0 1em 0;
       width: 10em;
-      border: 0.1em solid #ffffff;
+      border: 0.15em solid #f1d700;
     }
 
 /* Footer */
