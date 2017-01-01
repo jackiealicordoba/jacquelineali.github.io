@@ -1619,6 +1619,7 @@
   h1 {
     font-size: 2em;
     line-height: 1.5em;
+    color: #1e3f74;
   }
 
   h2 {
@@ -2317,6 +2318,11 @@
       table.alt tfoot {
         border-top: 0;
       }
+
+/* Level-up Completed */
+.completed {
+  text-decoration: line-through;
+}
 
 /* Button */
 
