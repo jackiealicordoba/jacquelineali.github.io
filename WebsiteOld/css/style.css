@@ -1,0 +1,187 @@
+/*General Details */
+body {
+  /* Positioning */
+
+  /* Box-Model */
+  padding-top: 52px;
+  /* Typography */
+  font-family: 'Source Sans Pro', sans-serif;
+  /* Visual */
+  font-size: 20px;
+
+  /* Misc */
+  /*background-image: url("../images/brickwall.png");*/
+  background-color: #f6f6f6;
+}
+
+body h1 {
+  font-family: 'Patua One', serif;
+}
+
+body h2 {
+  font-family: 'Patua One', serif;
+}
+
+.row {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.btn {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Patua One', serif;
+  font-size: 18px;
+
+}
+
+.navbar {
+  /* Positioning */
+  /* Box Model */
+  margin:0px;
+  /* Typography */
+  font-family: 'Patua One', serif;
+  color: white;
+  /* Visual */
+  background-color: #78202B;
+  /* Misc */
+}
+
+.jumbotron {
+  /* Positioning */
+
+  /* Box-Model */
+  height:400px;
+  /* Typography */
+
+  color:white;
+  /* Visual */
+  background-image: url("../images/chalkheader1.jpeg");
+  background-size: cover;
+  border-bottom: 1px solid #7D2235;
+  /* Misc */
+}
+
+.jumbotron h1 {
+  font-family: 'Patua One', serif;
+}
+
+#about_me {
+
+}
+
+.about_me_summary {
+  padding-bottom: 5px;
+}
+
+.about_me_full {
+  padding-top: 5px;
+}
+
+#resume {
+  /*
+  color:#FFFFFF;
+  background-color: #7D2235;*/
+}
+
+#resume p {
+  margin-top: 10px;
+}
+
+#levelup_preview {
+
+}
+
+#contact {
+  color:#FFFFFF;
+  background-image: url("../images/contact_texture.png");
+}
+
+/*
+a {
+  color:white;
+  text-decoration:none;
+}
+
+a:hover {
+  text-decoration: underline;
+} */
+
+
+/* Header + Navbar Details
+.navbar {
+  /*positioning/sizing details
+  position:relative;
+  top:-25px;
+  width:100%;
+  height:50px;
+
+  background-color:#0047ab;
+  text-transform: uppercase;
+}
+
+.navbar ul {
+  position:absolute;
+  right:10px;
+}
+
+.navbar li {
+  display:inline;
+
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+.navbar a {
+  margin:10px;
+}
+
+.navbar h1 {
+  width:300px;
+  position:relative;
+  left:15px;
+} */
+
+
+/* Social Media Bar details */
+.social {
+  /* Separates bar from flow, offsets from left. */
+  position:absolute;
+  left:20px;
+
+}
+
+/* Social Media Icon Styling */
+.social ul {
+  padding:0px;
+  list-style-type: none;
+}
+
+.social li {
+  margin-bottom:10px;
+}
+
+/* Content Styling
+.content {
+  position:relative;
+  left:100px;
+
+  width:500px;
+
+  color:white;
+}
+
+.content h2 {
+  margin-top: 5px;
+  margin-bottom:-3px;
+}
+
+.content p {
+  margin-top:0px;
+  margin-bottom:0px;
+}*/
+
+
+.completed {
+  text-decoration: line-through;
+}
